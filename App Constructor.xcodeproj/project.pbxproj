@@ -12,6 +12,7 @@
 		6913EC432253944C004D06CD /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 6913EC412253944C004D06CD /* Main.storyboard */; };
 		6913EC452253944F004D06CD /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 6913EC442253944F004D06CD /* Assets.xcassets */; };
 		6913EC482253944F004D06CD /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 6913EC462253944F004D06CD /* LaunchScreen.storyboard */; };
+		6913EC51225394CF004D06CD /* Item.swift in Sources */ = {isa = PBXBuildFile; fileRef = 6913EC50225394CF004D06CD /* Item.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -22,6 +23,7 @@
 		6913EC442253944F004D06CD /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		6913EC472253944F004D06CD /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		6913EC492253944F004D06CD /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		6913EC50225394CF004D06CD /* Item.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Item.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -54,6 +56,7 @@
 		6913EC3C2253944C004D06CD /* App Constructor */ = {
 			isa = PBXGroup;
 			children = (
+				6913EC4F2253949D004D06CD /* Model */,
 				6913EC3D2253944C004D06CD /* AppDelegate.swift */,
 				6913EC3F2253944C004D06CD /* ViewController.swift */,
 				6913EC412253944C004D06CD /* Main.storyboard */,
@@ -62,6 +65,14 @@
 				6913EC492253944F004D06CD /* Info.plist */,
 			);
 			path = "App Constructor";
+			sourceTree = "<group>";
+		};
+		6913EC4F2253949D004D06CD /* Model */ = {
+			isa = PBXGroup;
+			children = (
+				6913EC50225394CF004D06CD /* Item.swift */,
+			);
+			path = Model;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -136,6 +147,7 @@
 			buildActionMask = 2147483647;
 			files = (
 				6913EC402253944C004D06CD /* ViewController.swift in Sources */,
+				6913EC51225394CF004D06CD /* Item.swift in Sources */,
 				6913EC3E2253944C004D06CD /* AppDelegate.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
@@ -285,6 +297,7 @@
 				CODE_SIGN_STYLE = Automatic;
 				DEVELOPMENT_TEAM = 8J39KF9DMS;
 				INFOPLIST_FILE = "App Constructor/Info.plist";
+				IPHONEOS_DEPLOYMENT_TARGET = 12.1;
 				LD_RUNPATH_SEARCH_PATHS = (
 					"$(inherited)",
 					"@executable_path/Frameworks",
@@ -303,6 +316,7 @@
 				CODE_SIGN_STYLE = Automatic;
 				DEVELOPMENT_TEAM = 8J39KF9DMS;
 				INFOPLIST_FILE = "App Constructor/Info.plist";
+				IPHONEOS_DEPLOYMENT_TARGET = 12.1;
 				LD_RUNPATH_SEARCH_PATHS = (
 					"$(inherited)",
 					"@executable_path/Frameworks",
