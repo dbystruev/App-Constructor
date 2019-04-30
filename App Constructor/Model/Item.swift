@@ -37,7 +37,7 @@ extension Items {
         return [
             .container(name: "Города", items: [1]),     // 0
             .container(name: "Москва", items: [2, 3]),  // 1
-            .image(UIImage()),                          // 2
+            .image(UIImage(named: "kremlin")!),          // 2
             .text("Население — 12 млн чел.")            // 3
         ]
     }
